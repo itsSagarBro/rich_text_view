@@ -114,6 +114,7 @@ class MentionParser extends ParserType {
       : super(
           pattern: pattern,
           onTap: onTap,
+        style: style
         );
 }
 
